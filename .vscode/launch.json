@@ -4,10 +4,16 @@
     // Para obter mais informações, visite: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "Flutter",
+            "type": "dart",
+            "request": "launch",
+            "program": "appfastfood/lib/main.dart"
+        },
         
         {
             "name": "Dart",
-            "program": "bin/main.dart",
+            "program": "appfastfood/bin/main.dart",
             "request": "launch",
             "type": "dart"
         }
